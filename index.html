@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  data-theme="light"
+  class="overflow-x-hidden scroll-smooth font-mainFont"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+    </style>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <title>Shady Rhymes - Responsive Furniture Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      id="home"
+      class="h-[406px] lg:h-screen max-h-[1080px] bg-cover bg-center text-base-100"
+      style="background-image: url('assets/img/Header-1.png')"
+    >
+      <div class="bg-black bg-opacity-50 h-full">
+        <div class="container mx-auto">
+          <!-- Navbar -->
+          <div class="navbar bg-transparent py-[22.45px] lg:py-10">
+            <div class="navbar-start">
+              <a
+                class="btn btn-ghost normal-case text-xl px-[5px] ml-[15px]"
+                href="#home"
+              >
+                <img
+                  class="h-[25px] lg:h-auto"
+                  src="./assets/img/Logo.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul
+                class="menu menu-horizontal px-1 [&>li>details>summary]:px-[30px] [&>li>a]:px-[30px]"
+              >
+                <li tabindex="0">
+                  <details>
+                    <summary>Furniture</summary>
+                    <ul class="p-2 w-[130px] text-base-content">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-ghost px-[5px]">
+                <img src="./assets/img/Bag_fill.svg" alt="" />
+              </a>
+              <div class="dropdown block lg:hidden">
+                <label
+                  tabindex="0"
+                  class="btn btn-ghost lg:hidden px-[5px] mr-[15px]"
+                >
+                  <img src="./assets/img/Hamburger_menu.svg" alt="" />
+                </label>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-base-content rounded-box w-52 absolute right-0"
+                >
+                  <li>
+                    <a>Furniture</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Shop</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col gap-5 lg:gap-10 text-center items-center text-xs my-5 lg:my-[15vh]"
+          >
+            <h1 class="text-lg lg:text-5xl font-semibold">
+              Make Your Interior More<br />
+              Minimaistic & Modern
+            </h1>
+            <p class="w-[292px] lg:w-[574px] lg:text-lg">
+              Bringing interiors to life, understanding the person or people
+              living in a home is far greater need in design.
+            </p>
+            <div
+              class="flex justify-between lg:items-center w-[280px] lg:w-[360px] lg:h-[60px] bg-base-100 bg-opacity-50 p-[5px] lg:p-[9px] rounded-full border border-base-100"
+            >
+              <input
+                class="bg-transparent placeholder-base-100 focus:outline-none w-5/6 ml-[10px] lg:text-sm"
+                type="text"
+                placeholder="Search Furniture"
+              />
+              <div
+                class="bg-base-100 rounded-full lg:w-[38px] lg:h-[38px] p-1 lg:flex"
+              >
+                <img
+                  class="lg:items-center lg:justify-center"
+                  src="./assets/img/Search.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Navbar end -->
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Section 2 -->
+    <section class="container lg:mx-auto my-5 lg:my-20">
+      <h2 class="hidden lg:block text-4xl font-medium leading-[72px]">
+        Why Choosing Us
+      </h2>
+      <div class="flex flex-wrap lg:grid lg:grid-cols-4 justify-center gap-5">
+        <div
+          class="w-[90vw] lg:w-auto p-[10px] lg:p-5 hover:shadow-[4px_2px_10px_2px_rgba(247,148,137,0.2)] hover:border hover:border-[#FADCD9] transition rounded-[10px]"
+        >
+          <div
+            class="rounded-full p-[5px] lg:p-[10px] bg-[#FAF5F2] w-fit mb-[10px]"
+          >
+            <img class="h-[18px] lg:h-10" src="./assets/img/S2-1.svg" alt="" />
+          </div>
+          <h2 class="text-xs lg:text-lg font-medium leading-6 lg:leading-9">
+            Professionalism
+          </h2>
+          <p
+            class="text-xs lg:text-lg leading-6 lg:leading-9 lg:mt-[10px] lg:mb-5"
+          >
+            We deliver the final work with great professional way.
+          </p>
+          <a
+            class="text-[#F79489] text-xs lg:text-lg leading-6 lg:leading-9 mt-[10px]"
+            href="#"
+            >more info</a
+          >
+        </div>
+        <div
+          class="w-[90vw] lg:w-auto p-[10px] lg:p-5 hover:shadow-[4px_2px_10px_2px_rgba(247,148,137,0.2)] hover:border hover:border-[#FADCD9] transition rounded-[10px]"
+        >
+          <div
+            class="rounded-full p-[5px] lg:p-[10px] bg-[#FAF5F2] w-fit mb-[10px]"
+          >
+            <img class="h-[18px] lg:h-10" src="./assets/img/S2-2.svg" alt="" />
+          </div>
+          <h2 class="text-xs lg:text-lg font-medium leading-6 lg:leading-9">
+            Smooth workflow
+          </h2>
+          <p
+            class="text-xs lg:text-lg leading-6 lg:leading-9 lg:mt-[10px] lg:mb-5"
+          >
+            We provide the most easy smoth workflow of interior design.
+          </p>
+          <a
+            class="text-[#F79489] text-xs lg:text-lg leading-6 lg:leading-9 mt-[10px]"
+            href="#"
+            >more info</a
+          >
+        </div>
+        <div
+          class="w-[90vw] lg:w-auto p-[10px] lg:p-5 hover:shadow-[4px_2px_10px_2px_rgba(247,148,137,0.2)] hover:border hover:border-[#FADCD9] transition rounded-[10px]"
+        >
+          <div
+            class="rounded-full p-[5px] lg:p-[10px] bg-[#FAF5F2] w-fit mb-[10px]"
+          >
+            <img class="h-[18px] lg:h-10" src="./assets/img/S2-3.svg" alt="" />
+          </div>
+          <h2 class="text-xs lg:text-lg font-medium leading-6 lg:leading-9">
+            Trusted Platform
+          </h2>
+          <p
+            class="text-xs lg:text-lg leading-6 lg:leading-9 lg:mt-[10px] lg:mb-5"
+          >
+            People trust us since we openend the company
+          </p>
+          <a
+            class="text-[#F79489] text-xs lg:text-lg leading-6 lg:leading-9 mt-[10px]"
+            href="#"
+            >more info</a
+          >
+        </div>
+        <div
+          class="w-[90vw] lg:w-auto p-[10px] lg:p-5 hover:shadow-[4px_2px_10px_2px_rgba(247,148,137,0.2)] hover:border hover:border-[#FADCD9] transition rounded-[10px]"
+        >
+          <div
+            class="rounded-full p-[5px] lg:p-[10px] bg-[#FAF5F2] w-fit mb-[10px]"
+          >
+            <img class="h-[18px] lg:h-10" src="./assets/img/S2-4.svg" alt="" />
+          </div>
+          <h2 class="text-xs lg:text-lg font-medium leading-6 lg:leading-9">
+            Qualified employee
+          </h2>
+          <p
+            class="text-xs lg:text-lg leading-6 lg:leading-9 lg:mt-[10px] lg:mb-5"
+          >
+            Our employees are the best of the field from the city
+          </p>
+          <a
+            class="text-[#F79489] text-xs lg:text-lg leading-6 lg:leading-9 mt-[10px]"
+            href="#"
+            >more info</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 end -->
+
+    <!-- Section 3 -->
+    <section class="container lg:mx-auto my-20 lg:my-40">
+      <div class="flex flex-wrap-reverse lg:flex-wrap justify-center">
+        <div
+          class="w-[90vw] lg:w-1/2 mx-auto lg:pr-10 [&>.collapse>.collapse-title]:leading-6 [&>.collapse>.collapse-content>p]:leading-6 [&>.collapse>.collapse-title]:lg:leading-9 [&>.collapse>.collapse-content>p]:lg:leading-9 [&>.collapse>.collapse-title::after]:text-[#F79489]"
+        >
+          <h2 class="text-lg lg:text-4xl font-medium leading-[72px]">
+            Visualize your ideas with us
+          </h2>
+          <p class="text-xs lg:text-lg leading-6 lg:leading-9 lg:mt-10 lg:mb-5">
+            We are ready to help you build and also realize the room design that
+            you dream of, with our experts and also the best category
+            recommendations from us
+          </p>
+          <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xs lg:text-lg font-medium px-0">
+              Modern
+            </div>
+            <div class="collapse-content text-xs lg:text-lg px-0">
+              <p>
+                Modern design is a term in the design world that refers to a
+                house with a clean design, simple color choices, the use of
+                materials including metal, glass, and steel, and is usually
+                accompanied by clean lines.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xs lg:text-lg font-medium px-0">
+              Contemporary
+            </div>
+            <div class="collapse-content text-xs lg:text-lg px-0">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+                sequi beatae odio sed delectus quis eius ad minima nihil nostrum
+                quibusdam, nisi deserunt vero nobis?
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xs lg:text-lg font-medium px-0">
+              Minimalis
+            </div>
+            <div class="collapse-content text-xs lg:text-lg px-0">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                explicabo quibusdam? Ipsam fugiat explicabo soluta
+                exercitationem quasi aspernatur saepe quod, nostrum nisi rem
+                nulla earum velit cum!
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xs lg:text-lg font-medium px-0">
+              Industrial
+            </div>
+            <div class="collapse-content text-xs lg:text-lg px-0">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis illo, consectetur odio quidem rerum explicabo
+                mollitia ducimus libero deserunt asperiores magnam dolorum
+                consequatur, rem blanditiis soluta!
+              </p>
+            </div>
+          </div>
+          <a
+            class="text-[#F79489] text-xs lg:text-lg leading-6 lg:leading-9"
+            href="#"
+            >See more category</a
+          >
+        </div>
+        <div
+          class="w-[90vw] lg:w-1/2 h-fit rounded-t-[20px] lg:rounded-t-[60px] rounded-bl-[20px] lg:rounded-bl-[60px] overflow-hidden mb-10 lg:mb-0"
+        >
+          <img class="scale-110" src="./assets/img/S3-1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Section 3 end -->
+
+    <!-- Section 4 shop -->
+    <section id="shop" class="container mx-auto py-28">
+      <h2 class="text-lg lg:text-4xl text-center font-medium leading-[72px]">
+        Featured Product
+      </h2>
+      <div
+        class="grid grid-cols-2 lg:grid-cols-4 w-[90vw] lg:w-auto gap-[10px] lg:gap-5 mx-auto my-10"
+      >
+        <div class="flex flex-col">
+          <a href="#">
+            <div class="bg-base-200 py-5">
+              <img
+                class="h-36 mx-auto hover:scale-110 transition"
+                src="./assets/img/Shop-1.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="flex flex-col gap-[10px] pt-2 pb-4 px-4">
+            <a href="#">
+              <h3
+                class="leading-7 text-sm lg:text-lg hover:font-semibold transition"
+              >
+                Product
+              </h3>
+            </a>
+            <p class="leading-6 text-xs lg:text-sm opacity-50">Category</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="leading-6 text-xs lg:text-sm">$Price</p>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <a href="#">
+            <div class="bg-base-200 py-5">
+              <img
+                class="h-36 mx-auto hover:scale-110 transition"
+                src="./assets/img/Shop-2.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="flex flex-col gap-[10px] pt-2 pb-4 px-4">
+            <a href="#">
+              <h3
+                class="leading-7 text-sm lg:text-lg hover:font-semibold transition"
+              >
+                Product
+              </h3>
+            </a>
+            <p class="leading-6 text-xs lg:text-sm opacity-50">Category</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="leading-6 text-xs lg:text-sm">$Price</p>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <a href="#">
+            <div class="bg-base-200 py-5">
+              <img
+                class="h-36 mx-auto hover:scale-110 transition"
+                src="./assets/img/Shop-3.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="flex flex-col gap-[10px] pt-2 pb-4 px-4">
+            <a href="#">
+              <h3
+                class="leading-7 text-sm lg:text-lg hover:font-semibold transition"
+              >
+                Product
+              </h3>
+            </a>
+            <p class="leading-6 text-xs lg:text-sm opacity-50">Category</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="leading-6 text-xs lg:text-sm">$Price</p>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <a href="#">
+            <div class="bg-base-200 py-5">
+              <img
+                class="h-36 mx-auto hover:scale-110 transition"
+                src="./assets/img/Shop-4.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="flex flex-col gap-[10px] pt-2 pb-4 px-4">
+            <a href="#">
+              <h3
+                class="leading-7 text-sm lg:text-lg hover:font-semibold transition"
+              >
+                Product
+              </h3>
+            </a>
+            <p class="leading-6 text-xs lg:text-sm opacity-50">Category</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="leading-6 text-xs lg:text-sm">$Price</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 4 shop end -->
+
+    <!-- Section 5 about -->
+    <section
+      id="about"
+      style="background: linear-gradient(315deg, #fff 0%, #faf5f2 100%)"
+    >
+      <div class="container mx-auto py-10 lg:py-20">
+        <h2 class="text-lg lg:text-4xl font-medium leading-[72px] text-center">
+          What they say about our services
+        </h2>
+        <div
+          class="flex flex-wrap lg:grid lg:grid-cols-3 w-[90%] lg:w-auto mx-auto gap-10 lg:gap-[70px] mt-5 lg:mt-20"
+        >
+          <div class="flex flex-col">
+            <h3 class="leading-7 text-sm lg:text-2xl font-semibold">
+              Best planning service
+            </h3>
+            <p
+              class="leading-7 lg:leading-[48px] text-sm lg:text-lg mt-[10px] mb-[14px]"
+            >
+              I had fantastic experience at shady rhymes with pax planner, shady
+              rhymes was so helpful and friendly and went above and beyond to
+              help me configure my perfect walk in wardobe room.
+            </p>
+            <div class="flex gap-[10px] items-center">
+              <img
+                class="rounded-full w-10 h-10"
+                src="./assets/img/About-1.png"
+                alt=""
+              />
+              <div>
+                <p
+                  class="leading-7 lg:leading-9 text-sm lg:text-lg font-semibold"
+                >
+                  John doe
+                </p>
+                <p class="leading-6 lg:leading-7 text-xs lg:text-sm font-light">
+                  Project manager of cupalo
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="leading-7 text-sm lg:text-2xl font-semibold">
+              Flexible and reliable
+            </h3>
+            <p
+              class="leading-7 lg:leading-[48px] text-sm lg:text-lg mt-[10px] mb-[14px]"
+            >
+              Terrific work from beginning to end can work any angle from
+              minimal help to complete project handling professional without a
+              doubt! Love!
+            </p>
+            <div class="flex gap-[10px] items-center">
+              <img
+                class="rounded-full w-10 h-10"
+                src="./assets/img/About-2.png"
+                alt=""
+              />
+              <div>
+                <p
+                  class="leading-7 lg:leading-9 text-sm lg:text-lg font-semibold"
+                >
+                  Woods Moniq
+                </p>
+                <p class="leading-6 lg:leading-7 text-xs lg:text-sm font-light">
+                  Freelancer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="leading-7 text-sm lg:text-2xl font-semibold">
+              Solution innovative
+            </h3>
+            <p
+              class="leading-7 lg:leading-[48px] text-sm lg:text-lg mt-[10px] mb-[14px]"
+            >
+              "I loved working with Darla shady rhymes for about 2 years and
+              highly recommend anyone looking for an interior designer agency
+              who brings creativity but designs something that fits YOU and your
+              style.
+            </p>
+            <div class="flex gap-[10px] items-center">
+              <img
+                class="rounded-full w-10 h-10"
+                src="./assets/img/About-3.png"
+                alt=""
+              />
+              <div>
+                <p
+                  class="leading-7 lg:leading-9 text-sm lg:text-lg font-semibold"
+                >
+                  Denis Rara
+                </p>
+                <p class="leading-6 lg:leading-7 text-xs lg:text-sm font-light">
+                  Architect at BPPLU
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 5 about end -->
+
+    <!-- Section 6 contact -->
+    <section id="contact" class="container lg:mx-auto py-20 lg:py-40">
+      <div class="flex flex-wrap justify-center">
+        <div
+          class="w-[90vw] lg:w-1/2 mx-auto lg:pl-10 [&>.collapse>.collapse-title]:leading-6 [&>.collapse>.collapse-content>p]:leading-6 [&>.collapse>.collapse-title]:lg:leading-9 [&>.collapse>.collapse-content>p]:lg:leading-9 order-last"
+        >
+          <h2 class="text-lg lg:text-4xl font-medium leading-[72px]">
+            Make your room feel homey
+          </h2>
+          <p class="text-xs lg:text-lg leading-6 lg:leading-9 lg:mt-10 lg:mb-5">
+            We help people not only to make the room at home better, but we help
+            people to feel a more homey and comfortable room, you don't have to
+            worry about the result because of these interiors are made by people
+            who are professionals in their dields with an elegant and lucuriois
+            style and with premium quality materials
+            <br /><br />
+            Contact us if you are interested in working with us
+          </p>
+
+          <div
+            class="flex justify-between lg:items-center w-[280px] lg:w-[360px] lg:h-[60px] p-[5px] lg:p-[9px] my-5 lg:my-10 rounded-full border border-[#F79489]"
+          >
+            <input
+              class="bg-transparent placeholder-[#F79489] border-transparent focus:outline-none w-5/6 ml-[10px] text-[10px] lg:text-sm leading-5"
+              type="text"
+              placeholder="Search Furniture"
+            />
+            <img
+              class="lg:items-center lg:justify-center h-7 w-7 lg:w-[44px] lg:h-[44px]"
+              src="./assets/img/Contact-form.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="w-[90vw] lg:w-1/2 h-fit rounded-t-[20px] lg:rounded-t-[60px] rounded-br-[20px] lg:rounded-br-[60px] overflow-hidden mb-10 lg:mb-0"
+        >
+          <img class="scale-110" src="./assets/img/Contact-1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Section 6 contact end -->
+
+    <!-- Footer -->
+    <footer
+      id="footer"
+      class="pt-5 lg:pt-[100px] pb-7"
+      style="background: linear-gradient(335deg, #000 0%, #4b4b4b 100%)"
+    >
+      <div class="container mx-auto">
+        <div
+          class="w-[90vw] mx-auto lg:w-auto flex flex-col lg:flex-row gap-10 flex-wrap justify-between items-start"
+        >
+          <img class="w-fit" src="./assets/img/Logo.svg" alt="" />
+          <div class="flex flex-col gap-5 text-base-100 [&>p]:text-xs">
+            <p class="text-[#FADCD9] text-sm font-medium -mb-[10px]">
+              Features
+            </p>
+            <p><a href="#">Our Features</a></p>
+            <p><a href="#">Pricing</a></p>
+            <p><a href="#">Affiliate Program</a></p>
+            <p><a href="#">Press Kit</a></p>
+          </div>
+          <div class="flex flex-col gap-5 text-base-100 [&>p]:text-xs">
+            <p class="text-[#FADCD9] text-sm font-medium -mb-[10px]">Support</p>
+            <p><a href="#">Account</a></p>
+            <p><a href="#">Help</a></p>
+            <p><a href="#">Contact Us</a></p>
+          </div>
+          <div class="flex flex-col gap-5 text-base-100 [&>p]:text-xs">
+            <p class="text-[#FADCD9] text-sm font-medium -mb-[10px]">Legal</p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Terms of Use</a></p>
+          </div>
+          <div class="flex flex-col gap-5 text-base-100 [&>p]:text-xs">
+            <p class="text-[#FADCD9] text-sm font-medium -mb-[10px]">
+              Social Media
+            </p>
+            <p><a href="#">Twitter</a></p>
+            <p><a href="#">Product Hunt</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Github</a></p>
+          </div>
+        </div>
+        <p
+          class="text-sm mt-[100px] text-base-100 text-center w-[90vw] mx-auto"
+        >
+          Copyright 2021 ©shady rhymes | Sliced to web page by Artalopa
+        </p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+</html>
